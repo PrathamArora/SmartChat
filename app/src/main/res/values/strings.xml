@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_number_login"><![CDATA[verify number & login]]></string>
+    <string name="login">login</string>
+    <string name="or">OR</string>
+</resources>

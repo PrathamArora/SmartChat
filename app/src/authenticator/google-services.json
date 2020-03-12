@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "352952889887",
+    "firebase_url": "https://smartchat-f7823.firebaseio.com",
+    "project_id": "smartchat-f7823",
+    "storage_bucket": "smartchat-f7823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352952889887:android:08841864ad4deec0875b2a",
+        "android_client_info": {
+          "package_name": "com.sew.smartchat.authenticator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352952889887-22s44c53mc7ip1q2flr6rc7pdrl9qjur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sew.smartchat.authenticator",
+            "certificate_hash": "b6f8ff4520d60dbc9e541d86d3949ceb961fc121"
+          }
+        },
+        {
+          "client_id": "352952889887-qiidj28vclhbsnmkgikvb9hq77momiej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoDY9CvncqCemiki4hhCYeaswAweCN9Do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352952889887-qiidj28vclhbsnmkgikvb9hq77momiej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

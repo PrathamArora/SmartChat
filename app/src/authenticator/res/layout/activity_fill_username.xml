@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/standard_margin"
+    android:paddingEnd="@dimen/standard_margin"
+    style="@style/AppTheme"
+    android:background="?background_color"
+    tools:context=".activities.FillUsernameActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        style="@style/TextInputLayoutAppearance"
+        android:id="@+id/username_label"
+        android:hint="@string/enter_username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textCapSentences"
+            android:maxLength="25"
+            style="@style/TextInputLayoutAppearance"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/username"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_below="@id/username_label"
+        android:layout_height="wrap_content"
+        style="@style/TextInputLayoutAppearance"
+        android:id="@+id/password_label"
+        android:hint="@string/enter_password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:maxLength="25"
+            style="@style/TextInputLayoutAppearance"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/password"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/next_button"
+        android:text="@string/or"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/txtOR"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_below="@id/txtOR"
+        android:layout_height="wrap_content"
+        style="@style/TextInputLayoutAppearance"
+        android:id="@+id/phone_label"
+        android:hint="@string/enter_phone_number">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:maxLength="10"
+            style="@style/TextInputLayoutAppearance"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/etPhone"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_below="@id/phone_label"
+        android:layout_height="wrap_content"
+        style="@style/TextInputLayoutAppearance"
+        android:id="@+id/otp_label"
+        android:hint="@string/enter_otp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:maxLength="6"
+            style="@style/TextInputLayoutAppearance"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/etOtp"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:textColor="@color/white"
+        android:background="@drawable/button_drawable"
+        android:layout_below="@id/password_label"
+        android:text="@string/login"
+        android:id="@+id/next_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:textColor="@color/white"
+        android:background="@drawable/button_drawable"
+        android:layout_below="@id/otp_label"
+        android:text="@string/verify_number_login"
+        android:id="@+id/btnVerifyPhone"/>
+
+</RelativeLayout>

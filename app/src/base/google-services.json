@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126422825011",
+    "firebase_url": "https://smartchat-7afba.firebaseio.com",
+    "project_id": "smartchat-7afba",
+    "storage_bucket": "smartchat-7afba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126422825011:android:b0c4bf0463f8a244178b46",
+        "android_client_info": {
+          "package_name": "com.sew.smartchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126422825011-uni02b2luhgbe2r63tn3u9cvrcfsvevf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sew.smartchat",
+            "certificate_hash": "b6f8ff4520d60dbc9e541d86d3949ceb961fc121"
+          }
+        },
+        {
+          "client_id": "126422825011-vv5dabq20mrmqtttovip0qnslql3tt22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzX7S5zFRB95-ypbguLdCIJgdgvJ344Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126422825011-vv5dabq20mrmqtttovip0qnslql3tt22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmartChat</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="msg_subscribed">Subscribed to groupChat topic</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to groupChat topic</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="next_button">next</string>
+    <string name="type_something">Type something…</string>
+    <string name="send">send</string>
+    <string name="please_enter_username">Please enter a username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="please_enter_password">Please enter Password</string>
+</resources>
