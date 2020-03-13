@@ -24,8 +24,8 @@
 
         <TextView
             android:id="@+id/txtCircularCharacter"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:background="@drawable/round_shape"
             android:gravity="center"
             android:textSize="24sp"
@@ -39,9 +39,10 @@
             android:id="@+id/txtUsername"
             android:textColor="@color/black"
             android:textSize="18sp"
+            android:layout_marginStart="10dp"
             app:layout_constraintBottom_toBottomOf="@+id/txtCircularCharacter"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintHorizontal_bias="0"
             app:layout_constraintStart_toEndOf="@+id/txtCircularCharacter"
             app:layout_constraintTop_toTopOf="@+id/txtCircularCharacter" />
 
