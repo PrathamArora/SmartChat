@@ -29,4 +29,7 @@ public interface DaoAccess {
             "from MessageDetail inner join UserDetail on MessageDetail.userToken = UserDetail.userToken")
     List<SavedMessageFormat> getAllMessages();
 
+    @Query("select * from UserDetail")
+    List<UserDetail> getAllUsers();
+
 }

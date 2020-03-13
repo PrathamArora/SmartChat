@@ -59,4 +59,8 @@ public class RoomDBHelper {
         return chatDatabase.daoAccess().getAllMessages();
     }
 
+    public List<UserDetail> getAllUsers(){
+        return chatDatabase.daoAccess().getAllUsers();
+    }
+
 }

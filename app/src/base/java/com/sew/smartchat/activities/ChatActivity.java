@@ -12,6 +12,9 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -45,10 +48,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 
 public class ChatActivity extends BaseActivity implements InsertUserInterface, InsertTopicInterface, InsertMessageInterface {
@@ -121,6 +120,25 @@ public class ChatActivity extends BaseActivity implements InsertUserInterface, I
         LocalBroadcastManager.getInstance(this).unregisterReceiver(notificationReceiver);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.show_users_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_show_all_users:
+                showToast("user list clicked");
+                startActivity(new Intent(ChatActivity.this, ShowAllUsersActivity.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
     @Override
     public void userInserted(boolean result) {

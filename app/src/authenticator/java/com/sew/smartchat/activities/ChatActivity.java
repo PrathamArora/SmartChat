@@ -117,7 +117,6 @@ public class ChatActivity extends BaseActivity implements InsertUserInterface, I
         LocalBroadcastManager.getInstance(this).unregisterReceiver(notificationReceiver);
     }
 
-
     @Override
     public void userInserted(boolean result) {
 

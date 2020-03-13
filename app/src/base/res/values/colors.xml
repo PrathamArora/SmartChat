@@ -9,4 +9,10 @@
     <color name="white">#fff</color>
     <color name="cardbackground">#fff</color>
     <color name="cardbackgroundown">#dbf0bd</color>
+
+    <color name="userColor1">#b5d1ff</color>
+    <color name="userColor2">#ebb5ff</color>
+    <color name="userColor3">#ffb5b5</color>
+    <color name="userColor4">#b9ffb5</color>
+    <color name="userColor5">#fff9b5</color>
 </resources>
